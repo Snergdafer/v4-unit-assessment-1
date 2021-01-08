@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "a technology for gitting or giving data"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition ="a website for gitting and giving repositories"
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init ={
+    description: "initialize git at this folder location, creating a repository",
+    code: "git init"
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+let clone ={
+    description: "used to copy all the files in a remote repo to your repo",
+    code: "git clone"
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+let status ={
+    description: "shows a list of commited and uncommited files in your repo",
+    code: "git status"
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,10 @@
 */
 
 //CODE HERE
-
+let add ={
+    description: "used to add files to the index",
+    code: "git add . (the dot specifies adding the current directory)"
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,10 @@
 */
 
 //CODE HERE
-
+let commit ={
+    description: "used to move files from the index to the staging area. needs to be used with the -m thingy to add a comment to the commit otherwise the terminal explodes",
+    code: "git commit -m"
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +89,10 @@
 */
 
 //CODE HERE
-
+let addRemote ={
+    description: "used to update things on or about github",
+    code: "git remote add origin 'myforkedrepothatididntclonefrom.github.com'"
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +100,7 @@
 */
 
 //CODE HERE
+let push ={
+    description: "used to push files commited to the github repo",
+    code: "git push"
+}
