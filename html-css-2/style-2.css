@@ -1,0 +1,168 @@
+#s1 {
+    height: 50px;
+    width: 600px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+#s2 {
+    padding: 10px;
+    width: 600px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+#bigDiv1 {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 225px;
+    border: 1px dashed black;
+}
+
+#rec1 {
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 100px;
+    float: left;
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: purple;
+}
+
+#rec2 {
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 100px;
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: blue;
+    box-shadow: 3px 3px 4px black;
+}
+
+#rec3 {
+    box-sizing: border-box;
+    margin: 10px;
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: palevioletred;
+}
+
+
+
+#bigDiv2 {
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 420px;
+    border: 1px dashed black;
+}
+
+#head {
+    height: 90px;
+    width: 90px;
+    margin: 0px;
+    margin-left: 45px;
+    border-radius: 90px;
+    border: 1px solid black;
+}
+
+#body {
+    height: 135px;
+    width: 135px;
+    margin: 0px;
+    margin-left: 23px;
+    border-radius: 135px;
+    border: 1px solid black;
+}
+
+#butt {
+    height: 180px;
+    width: 180px;
+    margin: 0px;
+    border-radius: 180px;
+    border: 1px solid black;
+}
+
+.eyes {
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.nose {
+    width: 25px;
+    margin-left: 30px;
+}
+
+.buttons {
+    width: 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+
+
+#bigDiv3 {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 200px;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+#paperBox {
+    background-color: papayawhip;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+#greenCircle {
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 150px;
+}
+
+#redSquare {
+    margin: 0px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: rgb(138, 26, 26);
+    height: 100px;
+    width: 100px;
+}
+
+#blueCircle {
+    margin: 0px;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    background-color: blue;
+}
+
+p {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+#fish {
+    margin-top: 21px;
+    margin-left: 21px;
+    width: 33px;
+}
